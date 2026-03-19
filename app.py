@@ -5,7 +5,7 @@ import pickle
 import requests
 
 session = requests.Session()
-session.headers.update({"User_Agent": "MovieApp/1.0"})
+session.headers.update({"User-Agent": "MovieApp/1.0"})
 
 
 def fetch_poster(movie_id):
